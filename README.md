@@ -10,7 +10,7 @@ yarn add https://github.com/SonicGarden/bugsnag-plugin-custom-error.git
 
 ```javascript
 import Bugsnag from '@bugsnag/js'
-import { BugsnagPluginCustomError } from 'bugsnag-plugin-custom-error'
+import { BugsnagPluginCustomError } from '@sonicgarden/bugsnag-plugin-custom-error'
 
 const customErrorPlugin = new BugsnagPluginCustomError({
   MemoryError: [
