@@ -1,6 +1,6 @@
 import type { Event, Plugin, Client } from '@bugsnag/js'
 
-type EventError = Event['errors'][number]
+export type EventError = Event['errors'][number]
 export type CustomErrorRule = string | ((error: EventError) => boolean)
 export type CustomErrors = { [key: string]: CustomErrorRule[] }
 
