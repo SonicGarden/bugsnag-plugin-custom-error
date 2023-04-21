@@ -10,7 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "@bugsnag/js": "^7.0.0",
-    "typescript": "^3.8.3"
+    "typescript": "^5.0.4"
   },
   "files": [
     "README.md",
